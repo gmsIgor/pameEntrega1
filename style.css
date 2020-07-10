@@ -27,12 +27,30 @@ html, body{
     justify-content: space-around;
 }
 
+.box{
+    background-color: hotpink;
+    flex-grow: 0.5;
+}
+
+/*  <div id = 'header'>
+        <h1>InstaFluxo</h1>
+        <form action="pesquisa" id="form_pesquisa">
+            <input type="text" id="caixa_pesquisa">
+        </form>
+        <div id= 'user_actions_container'>
+            
+        </div>
+
+    </div>
+*/
+
 #form_pesquisa{
     background-color: red;
     flex-grow: 3;
     height: 100%;
     align-self: center;
     display: flex;
+    justify-content: center;
 }
 
 #caixa_pesquisa{
@@ -42,6 +60,11 @@ html, body{
     border-color: #dbdbdb;
     border-width: 1px;
     height: 50%;
+}
+
+#user_actions_container{
+    background-color: green;
+    flex-grow: 3;
 }
 
 h1 {
