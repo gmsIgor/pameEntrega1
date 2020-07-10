@@ -4,6 +4,32 @@
 *{
     margin: 0px;
     padding: 0px;
+    border:none;
+}
+
+.user_action_icon{
+    height: 100%;
+    align-self: center;
+    margin-left: 20px;
+}
+
+#avatar {
+    height: 100%;
+    align-self: center;
+}
+
+.avatar_cropper{
+    height: 30px;
+    width: 30px;
+    align-self: center;
+    align-self: center;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin-left: 20px;
 }
 
 html, body{
@@ -28,8 +54,7 @@ html, body{
 }
 
 .box{
-    background-color: hotpink;
-    flex-grow: 0.5;
+    flex-grow: 3;
 }
 
 /*  <div id = 'header'>
@@ -45,7 +70,7 @@ html, body{
 */
 
 #form_pesquisa{
-    background-color: red;
+    /* background-color: blue; */
     flex-grow: 3;
     height: 100%;
     align-self: center;
@@ -56,29 +81,61 @@ html, body{
 #caixa_pesquisa{
     background-color: #fafafa;
     align-self: center;
-    border-bottom-style: solid;
+    text-align: center;
+    border: solid;
     border-color: #dbdbdb;
     border-width: 1px;
-    height: 50%;
+    height: 40%;
+    width: 75%;
 }
 
 #user_actions_container{
-    background-color: green;
+    /* background-color: red; */
     flex-grow: 3;
+    align-self: center;
+    height: 40%;
+    display: flex;
+    width: 20%;
+    justify-content: center;
 }
 
-h1 {
-    flex-grow: 1;
+#instaLogo{
+    height: 50%;
     align-self: center;
-    background-color: blue;
+}
+
+#logo_container{
+    align-self: center;
+    height: 100%;
+    width: 300px;
+    flex-grow: 3;
+    display: flex;
+    /* background-color: red; */
 }
 
 #bg{
-    height: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
     background-color: #fafafa;
+}
+
+.post{
+    height: 80%;
+    width: 50%;
+    align-self: center;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #dbdbdb;
+    border-width: 1px;
 }
 
 header{
     display: flex;
     flex-direction: row;
 }
+
+input.placeholder{
+    text-align: center;
+}
+
