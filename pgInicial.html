@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet"/>
-    <title>Document</title>
+    <title>Instagram</title>
 </head>
 <body>
     <div id = 'header'>
+        <!--Adiciona uma box na esquerda para centralizar o conteúdo do header-->
         <div class="box"></div>
         <div id='logo_container'>
             <img 
@@ -16,6 +17,7 @@
                 alt="bussola"
             />
         </div>
+        <!--adiciona a barra de pesquisa no meio do header-->
         <form action="pesquisa" id="form_pesquisa">
             <input type="text" id="caixa_pesquisa" placeholder="pesquisar">
         </form>
@@ -23,12 +25,12 @@
             <img 
                 class = 'user_action_icon'
                 src="assets/navegador.svg" 
-                alt="bussola"
+                alt="navegar"
             />
             <img 
                 class = 'user_action_icon'
                 src="assets/origami.svg" 
-                alt="bussola"
+                alt="message"
             />
             <img 
                 class = 'user_action_icon'
@@ -38,13 +40,13 @@
             <img 
                 class = 'user_action_icon'
                 src="assets/coracao.svg" 
-                alt="bussola"
+                alt="coracao"
             />
             <div class = 'avatar_cropper'>
                 <img 
                     id = 'avatar'
                     src="assets/avatar.png" 
-                    alt="bussola"
+                    alt="avatar"
                 />
             </div>
         </div>
@@ -52,18 +54,62 @@
     </div>
     <div id = 'bg'>
         <div class = 'post'>
-            <div class = 'content'>
-                
-            </div>
+            <img class = 'content'
+                    src="assets/post_img.jpg" 
+                    alt="imagem de postagem"
+                />
             <div class = 'post_container'>
                 <div class = 'post_header'>
-
+                    <div class = 'post_user'>
+                        <img class = 'post_user_avatar'
+                            src="assets/ft_entrega1.jpg" 
+                            alt="avatar"
+                        />
+                    </div>
+                    <p class='post_user_name'>pame20.1</p>
                 </div>
                 <div class = 'post_caption'>
-
+                    <div class='caption_container_left'>
+                        <div class = 'post_user'>
+                            <img class = 'post_user_avatar'
+                                src="assets/ft_entrega1.jpg" 
+                                alt="avatar"
+                            />
+                        </div>
+                    </div>
+                    <div class='caption_container_right'>
+                        <b class='caption_user_name'>pame20.1</b>
+                        <text class='caption_texto'>Apesar das grandes conquistas do movimento, ainda temos um grande desafio para erradicar a LGBTfobia na nossa sociedade!! ✊🏳‍🌈</text>
+                    </div>
+                    
                 </div>
-                <div class = ' post_foter'>
-
+                <div class = 'post_footer'>
+                    <img 
+                        class = 'post_action'
+                        src="assets/coracao.svg" 
+                        alt="coracao"
+                    />
+                    <img 
+                        class = 'post_action'
+                        src="assets/comente.svg" 
+                        alt="comente"
+                    />
+                    <img 
+                        class = 'post_action'
+                        src="assets/origami.svg" 
+                        alt="encaminhar"
+                    />
+                    <div class = 'save_container'>
+                        <img 
+                            class = 'save_action'
+                            src="assets/save.svg" 
+                            alt="salvar"
+                        />
+                    </div>
+                </div>
+                <div class='comentar'>
+                    <text class = 'cmnt_plcholder'>Adicione um comentário...</text>
+                    <text class = 'publicar_btn'>Publicar</text>
                 </div>
             </div>
         </div>
