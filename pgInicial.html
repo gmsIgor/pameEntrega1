@@ -21,6 +21,7 @@
         <form action="pesquisa" id="form_pesquisa">
             <input type="text" id="caixa_pesquisa" placeholder="pesquisar">
         </form>
+        <!--adiciona um container pra colocar os deixar os icones juntos -->
         <div id= 'user_actions_container'>
             <img 
                 class = 'user_action_icon'
@@ -50,14 +51,18 @@
                 />
             </div>
         </div>
+        <!--Adiciona uma box na direita para centralizar o conteúdo do header-->
         <div class='box'></div>
     </div>
     <div id = 'bg'>
+        <!--Adiciona uma div pai para o post e separa em varios containers os filhos-->
         <div class = 'post'>
+            <!--Contaner da imagem -->
             <img class = 'content'
-                    src="assets/post_img.jpg" 
-                    alt="imagem de postagem"
-                />
+                src="assets/post_img.jpg" 
+                alt="imagem de postagem"
+            />
+            <!--Caontainer do conteudo do post dividido em varios containers filhos-->
             <div class = 'post_container'>
                 <div class = 'post_header'>
                     <div class = 'post_user'>
@@ -85,6 +90,7 @@
                 </div>
                 <div class = 'post_footer'>
                     <img 
+                        id = 'coracao'
                         class = 'post_action'
                         src="assets/coracao.svg" 
                         alt="coracao"
