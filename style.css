@@ -165,7 +165,7 @@ html, body{
 
 .post_caption{
     padding-top: 20px;
-    height: 50%;
+    height: 58%;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
@@ -183,7 +183,7 @@ html, body{
 }
 
 .post_footer{
-    height: 26%;
+    height: 18%;
     width: 100%;
     display: flex;
     border-style: solid;
